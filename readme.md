@@ -5,11 +5,13 @@ Como parte do bootcamp Carrefour Web Developer, montamos uma versão front-end d
 [Página hospedada](https://iandealmeida.github.io/my-netflix-clone/)
 
 Decidi incluir uma simulação de uma funcionalidade que eu sempre quis que o Netflix implementasse. Deixar o usuário escolher o filme/série por país.
+
 ![Página Filmes](https://iandealmeida.github.io/my-netflix-clone/img/index.gif)
 
 Minha versão começa na página "Filmes" e inclui um botão para o usuário escolher dois tipos de filtro:
 - Gênero
 - País
+- 
 ![enter image description here](https://iandealmeida.github.io/my-netflix-clone/img/genero_pais.gif)
 
 
