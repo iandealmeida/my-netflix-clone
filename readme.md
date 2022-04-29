@@ -11,7 +11,7 @@ Decidi incluir uma simulação de uma funcionalidade que eu sempre quis que o Ne
 Minha versão começa na página "Filmes" e inclui um botão para o usuário escolher dois tipos de filtro:
 - Gênero
 - País
-- 
+
 ![enter image description here](https://iandealmeida.github.io/my-netflix-clone/img/genero_pais.gif)
 
 
