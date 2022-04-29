@@ -24,7 +24,7 @@
         <div class="container1">
             <h2 class="logo">NETFLIX</h2>
             <nav>
-                <a href="#">Inicio</a>
+                <a href="index.html">Inicio</a>
                 <a href="#">Séries</a>
                 <a href="#">Filmes</a>
                 <a href="#">Documentários</a>
@@ -33,10 +33,10 @@
     </header>
 
     <main>
-        <div class="filme-principal-index">
+        <div class="filme-principal-genero">
             <div class="container1">
                 <header class="categ-ativa">
-                    <h3 class="titulo">Filmes</h3>
+                    <h3 class="titulo">Gêneros</h3>
                     <!-- Botão CSS copiado do site W3 Schools e modificado: https://www.w3schools.com/bootstrap5/bootstrap_dropdowns.php -->
                     <div class="container mt-3">
                         <div class="dropdown">
@@ -50,8 +50,8 @@
                         </div>
                     </div>
                 </header>
-                <h3 class="titulo">O Grande Dragão Branco</h3>
-                <p class="descricao">O soldado americano Frank Dux vai a Hong Kong para ser aceito no Kumite, uma competição de artes marciais altamente secreta e extremamente violenta.</p>
+                <h3 class="titulo">Interestelar</h3>
+                <p class="descricao">As reservas naturais da Terra estão chegando ao fim e um grupo de astronautas recebe a missão de assegurar a continuação da espécie. </p>
                 <div class="botoes">
                     <button role="button" class="botao">
                         <i class="fas fa-play"></i>
@@ -69,45 +69,81 @@
 
     <div class="carrosel-filmes">
         <div class="filmes">
-            <h3 class="categoria">Populares</h3>
+            <h3 class="categoria">Ação</h3>
         </div>
         <div class="owl-carousel owl-theme">
             <div class="item">
                 <img class="box-filme" src="img/en_a_gladiator.jpg" alt="" srcset="">
             </div>
             <div class="item">
+                <img class="box-filme" src="img/en_a_bloodsport.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/en_a_goonies.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
                 <img class="box-filme" src="img/en_a_indiana.jpg" alt="" srcset="">
             </div>
             <div class="item">
-                <img class="box-filme" src="img/en_c_mafiadiva.jpg" alt="" srcset="">
-            </div>
-            <div class="item">
-                <img class="box-filme" src="img/en_d_interstellar.jpg" alt="" srcset="">
-            </div>
-            <div class="item">
-                <img class="box-filme" src="img/en_d_coco.jpg" alt="" srcset="">
-            </div>
-            <div class="item">
-                <img class="box-filme" src="img/es_c_mujeres.jpg" alt="" srcset="">
-            </div>
-            <div class="item">
-                <img class="box-filme" src="img/es_d_volver.jpg" alt="" srcset="">
+                <img class="box-filme" src="img/en_a_terminator.jpg" alt="" srcset="">
             </div>
             <div class="item">
                 <img class="box-filme" src="img/pt_a_cidade.jpg" alt="" srcset="">
             </div>
             <div class="item">
-                <img class="box-filme" src="img/pt_c_auto.jpg" alt="" srcset="">
+                <img class="box-filme" src="img/pt_a_tropa2.jpg" alt="" srcset="">
             </div>
             <div class="item">
-                <img class="box-filme" src="img/pt_d_quehoras.jpg" alt="" srcset="">
+                <img class="box-filme" src="img/pt_a_bacurau.jpg" alt="" srcset="">
             </div>
         </div>
     </div>
 
     <div class="carrosel-filmes">
         <div class="filmes">
-            <h3 class="categoria">Continuar assistindo como Iandê</h3>
+            <h3 class="categoria">Drama</h3>
+        </div>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="img/en_d_interstellar.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/en_d_godfather.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/en_d_coco.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/es_d_volver.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/es_d_pele.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/es_d_julieta.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/es_d_paralelas.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/es_d_maeduc.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/pt_d_quehoras.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/pt_d_marighela.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/pt_d_assalto.jpg" alt="" srcset="">
+            </div>
+
+        </div>
+    </div>
+
+    <div class="carrosel-filmes">
+        <div class="filmes">
+            <h3 class="categoria">Comédia</h3>
         </div>
         <div class="owl-carousel owl-theme">
             <div class="item">
@@ -140,11 +176,14 @@
             <div class="item">
                 <img class="box-filme" src="img/pt_d_marighela.jpg" alt="" srcset="">
             </div>
+            <div class="item">
+                <img class="box-filme" src="img/pt_c_auto.jpg" alt="" srcset="">
+            </div>
         </div>
     </div>
 
 
-    <!-- Botão Bootstrap -->
+    <!-- Bootstrap -->
     <script src="js/bootstrap/bootstrap.bundle.js"></script>
 
     <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
